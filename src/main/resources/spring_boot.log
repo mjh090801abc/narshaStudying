@@ -1,0 +1,88 @@
+2025-09-14T12:15:10.719+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Starting TestApplication using Java 21.0.8 with PID 41137 (/Users/moonjunghoon090801/Downloads/test/build/classes/java/main started by moonjunghoon090801 in /Users/moonjunghoon090801/Downloads/test)
+2025-09-14T12:15:10.722+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-09-14T12:15:10.737+09:00  INFO 41137 --- [test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-14T12:15:10.737+09:00  INFO 41137 --- [test] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-14T12:15:11.057+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-14T12:15:11.062+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-14T12:15:11.062+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14T12:15:11.073+09:00  INFO 41137 --- [test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-14T12:15:11.073+09:00  INFO 41137 --- [test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 336 ms
+2025-09-14T12:15:11.173+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-14T12:15:11.270+09:00  INFO 41137 --- [test] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-14T12:15:11.280+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-14T12:15:11.293+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-14T12:15:11.297+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Started TestApplication in 0.717 seconds (process running for 1.023)
+2025-09-14T12:15:21.775+09:00  INFO 41137 --- [test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 16 class path changes (1 addition, 3 deletions, 12 modifications)
+2025-09-14T12:15:21.778+09:00  INFO 41137 --- [test] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-14T12:15:21.785+09:00  INFO 41137 --- [test] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-14T12:15:21.822+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Starting TestApplication using Java 21.0.8 with PID 41137 (/Users/moonjunghoon090801/Downloads/test/build/classes/java/main started by moonjunghoon090801 in /Users/moonjunghoon090801/Downloads/test)
+2025-09-14T12:15:21.822+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-09-14T12:15:21.890+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-14T12:15:21.891+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-14T12:15:21.891+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14T12:15:21.894+09:00  INFO 41137 --- [test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-14T12:15:21.894+09:00  INFO 41137 --- [test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 71 ms
+2025-09-14T12:15:21.912+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-14T12:15:21.937+09:00  INFO 41137 --- [test] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-14T12:15:21.939+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-14T12:15:21.943+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-14T12:15:21.944+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Started TestApplication in 0.131 seconds (process running for 11.67)
+2025-09-14T12:15:21.944+09:00  INFO 41137 --- [test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-14T12:15:48.589+09:00  INFO 41137 --- [test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 13 class path changes (0 additions, 0 deletions, 13 modifications)
+2025-09-14T12:15:48.593+09:00  INFO 41137 --- [test] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-14T12:15:48.597+09:00  INFO 41137 --- [test] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-14T12:15:48.642+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Starting TestApplication using Java 21.0.8 with PID 41137 (/Users/moonjunghoon090801/Downloads/test/build/classes/java/main started by moonjunghoon090801 in /Users/moonjunghoon090801/Downloads/test)
+2025-09-14T12:15:48.643+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-09-14T12:15:48.709+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-14T12:15:48.709+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-14T12:15:48.709+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14T12:15:48.712+09:00  INFO 41137 --- [test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-14T12:15:48.712+09:00  INFO 41137 --- [test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 69 ms
+2025-09-14T12:15:48.729+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-14T12:15:48.751+09:00  INFO 41137 --- [test] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-14T12:15:48.753+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-14T12:15:48.757+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-14T12:15:48.758+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Started TestApplication in 0.124 seconds (process running for 38.484)
+2025-09-14T12:15:48.759+09:00  INFO 41137 --- [test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-14T12:16:06.309+09:00  INFO 41137 --- [test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 13 class path changes (0 additions, 0 deletions, 13 modifications)
+2025-09-14T12:16:06.311+09:00  INFO 41137 --- [test] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-14T12:16:06.313+09:00  INFO 41137 --- [test] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-14T12:16:06.358+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Starting TestApplication using Java 21.0.8 with PID 41137 (/Users/moonjunghoon090801/Downloads/test/build/classes/java/main started by moonjunghoon090801 in /Users/moonjunghoon090801/Downloads/test)
+2025-09-14T12:16:06.358+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-09-14T12:16:06.426+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-14T12:16:06.426+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-14T12:16:06.426+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14T12:16:06.429+09:00  INFO 41137 --- [test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-14T12:16:06.429+09:00  INFO 41137 --- [test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 70 ms
+2025-09-14T12:16:06.447+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-14T12:16:06.468+09:00  INFO 41137 --- [test] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-14T12:16:06.470+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-14T12:16:06.474+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-14T12:16:06.475+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Started TestApplication in 0.126 seconds (process running for 56.201)
+2025-09-14T12:16:06.475+09:00  INFO 41137 --- [test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-14T12:16:11.912+09:00  INFO 41137 --- [test] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 13 class path changes (0 additions, 0 deletions, 13 modifications)
+2025-09-14T12:16:11.913+09:00  INFO 41137 --- [test] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-14T12:16:11.915+09:00  INFO 41137 --- [test] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-14T12:16:11.963+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Starting TestApplication using Java 21.0.8 with PID 41137 (/Users/moonjunghoon090801/Downloads/test/build/classes/java/main started by moonjunghoon090801 in /Users/moonjunghoon090801/Downloads/test)
+2025-09-14T12:16:11.964+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-09-14T12:16:12.023+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-14T12:16:12.024+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-14T12:16:12.024+09:00  INFO 41137 --- [test] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14T12:16:12.027+09:00  INFO 41137 --- [test] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-14T12:16:12.027+09:00  INFO 41137 --- [test] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 63 ms
+2025-09-14T12:16:12.043+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-14T12:16:12.063+09:00  INFO 41137 --- [test] [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2025-09-14T12:16:12.064+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-14T12:16:12.068+09:00  INFO 41137 --- [test] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-14T12:16:12.069+09:00  INFO 41137 --- [test] [restartedMain] com.spring.test.TestApplication          : Started TestApplication in 0.114 seconds (process running for 61.795)
+2025-09-14T12:16:12.070+09:00  INFO 41137 --- [test] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-14T12:16:12.535+09:00  INFO 41137 --- [test] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-14T12:16:12.535+09:00  INFO 41137 --- [test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-14T12:16:12.536+09:00  INFO 41137 --- [test] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-14T12:16:16.798+09:00  INFO 41137 --- [test] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-14T12:16:16.870+09:00  INFO 41137 --- [test] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c81d3
+2025-09-14T12:16:16.871+09:00  INFO 41137 --- [test] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-14T12:16:23.583+09:00  INFO 41137 --- [test] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-14T12:16:23.584+09:00  INFO 41137 --- [test] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-14T12:16:23.585+09:00  INFO 41137 --- [test] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-14T12:16:23.589+09:00  INFO 41137 --- [test] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
